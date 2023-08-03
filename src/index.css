@@ -51,25 +51,21 @@ button:hover{
 
 #containerMaster{
   display: block;
+  background-color: #F9F9F9;
 }
 
 .boxs{
-  width: 340px;
+  width: 100%;
   height: 222px;
   margin-bottom: 24px;
 }
-
-#color1{
-  background-color: #FF6363;
-}
-
 #body1{
   display: flex;
   justify-content: center;
   width: 81%;
   margin: 151px auto;
   grid-gap: 111px;
-  border: solid 1px black;
+  cursor: pointer;
 }
 #body2{
   display: flex;
@@ -77,7 +73,7 @@ button:hover{
   width: 81%;
   margin: 151px auto;
   grid-gap: 111px;
-  border: solid 1px black;
+  cursor: pointer;
 }
 
 #body1 p{
@@ -109,10 +105,176 @@ button:hover{
   font-family: 'Merriweather', serif;
 }
 
-
 .containerBody{
   justify-content: center;
-  width: 342px;
+  width: 340px;
+  background-color: #fff;
+}
+/*Colors*/
+#color1{
+  background-color: #FF6363;
+}
+#color1:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+#color2{
+  background-color: #63ECFF;
+}
+#color2:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+#color3{
+  background-color: #F363FF;
+}
+#color3:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+#color4{
+  background-color: #63FF73;
+}
+#color4:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+#color5{
+  background-color: #FFDD63;
+}
+#color5:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+#color6{
+  background-color: #6663FF;
+}
+#color6:hover{
+  transform: scale(1.1);
+  transition: 1s;
 }
 
+/*footer*/
+
+footer{
+  background-color: #D7D4FF;
+  padding-top: 86px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 27.3%;
+  margin: auto;
+}
+h2{
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: 'Merriweather', serif;
+  font-size: 32px;
+}
+input{
+  width: 100%;
+  height: 65px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  padding-left: 15px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+input::placeholder{
+  color: rgba(110, 114, 117, 0.74);
+}
+#submit{
+  padding: 0;
+  cursor: pointer;
+  background-color: #6C63FF;
+  color: #fff;
+  height: 50px;
+  box-shadow: 0px 5px 5px 0px rgba(23, 23, 23, 0.10);
+}
+#msg{
+  padding-bottom: 165px;
+  width: 100%;
+  padding-top: 21px;
+  height: 65px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  padding-left: 15px;
+  border-radius: 6px;
+  border: none;
+  overflow: hidden;
+  resize: none;
+  outline: none;
+}
+#msg::placeholder{
+  color: rgba(110, 114, 117, 0.74);
+}
+
+
+@media(max-width: 900px){
+  img{
+    width: 90%;
+    margin-top: 121px;
+    margin: 121px 15px;
+  }
+
+  #informationsGeral{
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  #informations{
+    width: 100%;
+  }
+  
+  #body1{
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 151px auto;
+    grid-gap: 111px;
+    cursor: pointer;
+    margin: auto;
+  }
+  #body2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 151px auto;
+    grid-gap: 111px;
+    cursor: pointer;
+    margin: auto;
+  }
+  .containerBody{
+    justify-content: center;
+    width: 90%;
+    background-color: #fff;
+    margin: auto;
+  }
+  #informations p{
+    font-size: 18px;
+  }
+  #informations h1{
+    font-size: 32px;
+  }
+  form{
+    width: 90%;
+  }
+
+  #body1 p{
+    width: 85%;
+    color: #555;
+    line-height: 166%;
+    margin: 26px auto 31px;
+  }
+  #body2 p{
+    width: 85%;
+    color: #555;
+    line-height: 166%;
+    margin: 26px auto 31px;
+  }
+}
 
