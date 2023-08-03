@@ -1,0 +1,118 @@
+/*Import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@300;400;700&family=Hanken+Grotesk:wght@800&family=Inter:wght@300;500&family=Lato:ital,wght@0,700;1,400&family=Lexend+Deca&family=Manrope:wght@800&family=Montserrat:ital,wght@0,300;0,600;1,500&family=Open+Sans:wght@300;400&family=Outfit:wght@200;300;800&family=Overpass:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,600;1,400;1,800&family=Red+Hat+Display:wght@300;400&family=Roboto:wght@400;700&family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@300;400;700&family=Hanken+Grotesk:wght@800&family=Inter:wght@300;500&family=Lato:ital,wght@0,700;1,400&family=Lexend+Deca&family=Manrope:wght@800&family=Merriweather:ital,wght@0,700;1,400&family=Montserrat:ital,wght@0,300;0,600;1,500&family=Open+Sans:wght@300;400&family=Outfit:wght@200;300;800&family=Overpass:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,600;1,400;1,800&family=Red+Hat+Display:wght@300;400&family=Roboto:wght@400;700&family=Space+Grotesk:wght@500&display=swap');
+
+header{
+  background-color: #D7D4FF;
+  padding:  88.5px 0 122.6px;
+}
+
+#informationsGeral{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 81%;
+  margin: auto;
+}
+#informations{
+  width: 25%;
+}
+#informations h1{
+  font-size: 36px;
+  margin-bottom: 17.5px;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+#informations p{
+  color: #555555;
+  font-size: 19px;
+  line-height: 168%;
+  font-family: 'Lato', sans-serif;
+}
+button{
+  margin-top: 45px;
+  width: 155px;
+  height: 50px;
+  background-color: #6C63FF;
+  color: #fff;
+  font-size: 20px;
+  box-shadow: 0px 5px 5px 0px rgba(23, 23, 23, 0.10);
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+button:hover{
+  transform: scale(1.08);
+  transition: 1s;
+  background-color: #544bfd;
+}
+
+/*Body*/
+
+#containerMaster{
+  display: block;
+}
+
+.boxs{
+  width: 340px;
+  height: 222px;
+  margin-bottom: 24px;
+}
+
+#color1{
+  background-color: #FF6363;
+}
+
+#body1{
+  display: flex;
+  justify-content: center;
+  width: 81%;
+  margin: 151px auto;
+  grid-gap: 111px;
+  border: solid 1px black;
+}
+#body2{
+  display: flex;
+  justify-content: center;
+  width: 81%;
+  margin: 151px auto;
+  grid-gap: 111px;
+  border: solid 1px black;
+}
+
+#body1 p{
+  width: 60%;
+  color: #555;
+  line-height: 166%;
+  margin-top: 26px;
+  margin-bottom: 31px;
+}
+#body1 p, h3{
+  margin-left: 30px;
+}
+#body1 h3{
+  font-size: 24px;
+  font-family: 'Merriweather', serif;
+}
+#body2 p{
+  width: 60%;
+  color: #555;
+  line-height: 166%;
+  margin-top: 26px;
+  margin-bottom: 31px;
+}
+#body2 p, h3{
+  margin-left: 30px;
+}
+#body2 h3{
+  font-size: 24px;
+  font-family: 'Merriweather', serif;
+}
+
+
+.containerBody{
+  justify-content: center;
+  width: 342px;
+}
+
+
